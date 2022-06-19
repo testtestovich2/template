@@ -1,0 +1,43 @@
+.footer{
+  background-color: var(--bg-footer);
+  color: var(--color-text);
+}
+
+.footer__section{
+  padding: 45px 0;
+}
+
+.footer__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.footer__box-img{
+  margin-right: 20px;
+}
+
+.copyright{
+  max-width: 127px;
+}
+
+.copyright__text{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.footer__author{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.footer__phone-box .phone__number{
+  padding-top: 0;
+}
