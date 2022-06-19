@@ -112,3 +112,24 @@ section {
 .btn:hover{
   opacity: 0.5;
 }
+
+@media (max-width: 1025px) {
+  .container{
+    max-width: 1024px;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container{
+    max-width: 700px;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .btn{
+    padding: 9px 29px;
+    min-width: 162px;
+  }
+}
