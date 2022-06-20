@@ -133,7 +133,7 @@
 }
 
 @media(min-width:777px) {
-  .swiper-wrapper {
+  .advantage__list-slider {
     display: none;
   }
 
@@ -198,4 +198,17 @@
   .advantage__subtitle{
     max-width: 166px;
   }
+}
+
+.advantage__item-slider{
+  padding-left: 51px;
+}
+
+.advantage__number-slider{
+  margin-left: 29px;
+}
+
+.advantage__subtitle-slider{
+  display: block;
+  text-align: center;
 }
